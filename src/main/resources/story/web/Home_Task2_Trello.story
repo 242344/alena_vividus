@@ -18,7 +18,6 @@ Examples:
 Scenario: Sign In
 Given I am on the main application page
 When I click on element located `By.xpath(//*[@class='btn btn-sm btn-link text-primary'])`
-When I click on element located `By.xpath(//*[@class='btn btn-sm btn-link text-primary'])`
 When I enter `${userEmail}` in field located `By.xpath(//input[@id='user'])` 
 When I click on element located `By.xpath(//*[@id='login'])`
 When I wait until element located `By.xpath(//input[@id='password'])` appears
